@@ -3,7 +3,7 @@ import styles from './WantToWork.module.css';
 
 const WantToWork = () => {
 	return (
-		<footer className={styles.wanttoworkcontainer}>
+		<footer id="contact" className={styles.wanttoworkcontainer}>
 			<div className="container">
 				<div className={styles.flexcontainer}>
 					<h5 className={styles.sectionTitle}>Want to work?</h5>

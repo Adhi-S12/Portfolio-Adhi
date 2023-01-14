@@ -2,7 +2,7 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: flex-start;
-	padding: 30px 0;
+	padding: 30px 0 28px 0;
 }
 .navContainer {
 	padding: 0 60px;
@@ -22,6 +22,14 @@
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 16px;
+	padding: 4px;
+	border-bottom: 2px solid rgba(0, 6, 37, 0.98);
+	transition: all .4s ease-in-out;
+}
+
+.navItem:hover {
+	/* background: #ded94a; */
+	border-bottom: 2px solid #ded94a;
 }
 
 @media screen and (max-width: 770px) {
