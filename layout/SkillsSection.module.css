@@ -1,0 +1,94 @@
+.skillsContainer {
+	padding: 0 60px;
+}
+.skillsTitle {
+	margin-top: 100px;
+	font-weight: 500;
+	font-size: 40px;
+	line-height: 100%;
+	color: #ffffff;
+}
+
+.skillListContainer {
+	display: flex;
+	color: #25313c;
+	gap: 20px;
+	margin-bottom: 150px;
+	margin-top: 100px;
+}
+
+.skillCard {
+	background-color: #fff;
+	padding: 20px;
+	width: 370px;
+	border-radius: 10px;
+	box-shadow: 0px 2px 5px rgba(255, 255, 255, 0.25);
+}
+
+.cardTitle {
+	margin-top: 20px;
+	font-weight: 500;
+	font-size: 21px;
+	line-height: 100%;
+	color: #25313c;
+}
+
+.cardContent {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 180%;
+	letter-spacing: -0.06em;
+	color: #6d7d8b;
+	margin-top: 20px;
+}
+
+@media screen and (max-width: 1045px) {
+	.skillListContainer {
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+}
+@media screen and (max-width: 800px) {
+	.skillsTitle {
+		margin-top: 80px;
+		font-size: 34px;
+	}
+
+	.skillListContainer {
+		gap: 20px;
+		margin-bottom: 100px;
+		margin-top: 80px;
+	}
+
+	.skillCard {
+		background-color: #fff;
+		padding: 20px;
+		width: 100%;
+	}
+
+	.cardTitle {
+		font-size: 24px;
+	}
+
+	.cardContent {
+		font-size: 16px;
+		line-height: 170%;
+		letter-spacing: -0.08em;
+	}
+}
+
+@media screen and (max-width: 770px) {
+	.skillsTitle {
+		margin-top: 60px;
+	}
+
+	.skillsContainer {
+		padding: 0 40px;
+	}
+}
+
+@media screen and (max-width: 470px) {
+	.skillsContainer {
+		padding: 0 20px;
+	}
+}

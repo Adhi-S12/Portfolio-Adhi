@@ -1,0 +1,76 @@
+.wanttoworkcontainer {
+	padding: 0 60px;
+	padding-top: 100px;
+	padding-bottom: 150px;
+}
+
+.flexcontainer {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	gap: 2rem;
+}
+
+.sectionTitle {
+	font-weight: 600;
+	font-size: 52px;
+	line-height: 100%;
+	color: #ffffff;
+	word-spacing: -10px;
+	letter-spacing: -3px;
+}
+
+.sectionSubtitle {
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 163.15%;
+	color: #6d7d8b;
+	width: 500px;
+}
+
+.highlight {
+	background-color: #ffee00;
+	padding: 1px 6px;
+	color: #000000;
+}
+
+@media screen and (max-width: 1000px) {
+	.sectionTitle {
+		font-size: 42px;
+		color: #ffffff;
+	}
+
+	.sectionSubtitle {
+		font-size: 16px;
+	}
+}
+
+@media screen and (max-width: 820px) {
+	.wanttoworkcontainer {
+		padding-top: 60px;
+		padding-bottom: 80px;
+	}
+	.sectionTitle {
+		font-size: 38px;
+	}
+
+	.sectionSubtitle {
+		font-size: 14px;
+	}
+}
+
+@media screen and (max-width: 770px) {
+	.wanttoworkcontainer {
+		padding: 0 40px;
+		padding-top: 60px;
+		padding-bottom: 80px;
+	}
+}
+
+@media screen and (max-width: 470px) {
+	.wanttoworkcontainer {
+		padding: 0 20px;
+		padding-top: 40px;
+		padding-bottom: 80px;
+	}
+}

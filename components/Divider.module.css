@@ -1,0 +1,15 @@
+.dividerContainer {
+	padding: 0 60px;
+}
+
+@media screen and (max-width: 770px) {
+	.dividerContainer {
+		padding: 0 40px;
+	}
+}
+
+@media screen and (max-width: 470px) {
+	.dividerContainer {
+		padding: 0 20px;
+	}
+}

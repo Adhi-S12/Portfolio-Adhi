@@ -1,0 +1,16 @@
+.baseStyles {
+	padding: 16px 30px;
+	margin-top: 40px;
+	background-color: #14566a;
+	color: #fff;
+	border: none;
+	box-shadow: 4px 4px 3px rgb(222, 217, 74);
+	cursor: pointer;
+	transition: all .3s ease-in-out;
+}
+
+.baseStyles:hover {
+	background-color: #19667e;
+	box-shadow: 1px 1px 2px rgb(222, 217, 74);
+	/* box-shadow: 6px 6px 3px rgb(222, 217, 74); */
+}

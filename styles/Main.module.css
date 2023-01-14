@@ -1,0 +1,10 @@
+.main {
+	/* background-color: rgba(21, 31, 32, .7); */
+	background-color: rgba(21, 31, 32, .9);
+	color: #fff;
+}
+
+.copyright {
+	text-align: center;
+	padding: 10px;
+}
