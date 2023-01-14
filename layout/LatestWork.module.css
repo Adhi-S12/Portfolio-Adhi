@@ -126,6 +126,17 @@
 	}
 }
 
+@media screen and (max-width: 500px) {
+	.tagsContainer {
+		display: flex;
+		justify-content: center;
+	}
+	.projectDescription {
+		text-align: justify;
+		padding: 0 .5rem;
+	}
+}
+
 @media screen and (max-width: 470px) {
 	.projectsList {
 		margin-top: 50px;

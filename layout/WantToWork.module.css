@@ -67,6 +67,15 @@
 	}
 }
 
+@media screen and (max-width: 500px) {
+	.sectionTitle {
+		width: 100%;
+	}
+	.sectionSubtitle {
+		text-align: justify;
+		padding: 0 .5rem;
+	}
+}
 @media screen and (max-width: 470px) {
 	.wanttoworkcontainer {
 		padding: 0 20px;

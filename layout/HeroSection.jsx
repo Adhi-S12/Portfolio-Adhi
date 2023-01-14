@@ -15,7 +15,7 @@ const HeroSection = () => {
 					If you need a modern and powerful website send me an email. If we are
 					a good fit, I’ll send you a time and cost estimate.
 				</p>
-				<Button text="See My Work" marginBottom={150} marginTop={40} />
+				<Button text="See My Work" marginBottom={125} marginTop={40} />
 			</div>
 		</section>
 	);
