@@ -4,6 +4,7 @@ import Navbar from '../../layout/Navbar';
 import styles from '../../styles/Main.module.css';
 import Divider from '../../components/Divider';
 import ProjectsPage from '../../layout/ProjectsPage';
+import WantToWork from '../../layout/WantToWork';
 
 const Projects = () => {
 	return (
@@ -15,6 +16,10 @@ const Projects = () => {
 				<Navbar />
 				<Divider />
 				<ProjectsPage />
+				<Divider />
+				<WantToWork />
+				<Divider />
+				<p className={styles.copyright}>© All rights reserved - Adhi</p>
 			</main>
 		</React.Fragment>
 	);
